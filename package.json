@@ -1,0 +1,19 @@
+{
+  "name": "jest-rewire-const-error",
+  "version": "1.0.0",
+  "description": "Shows the Jest error with const",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/example.mocha.js && jest example"
+  },
+  "author": "Todd Cullen",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^5.2.0",
+    "rewire": "^4.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
